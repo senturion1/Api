@@ -31,5 +31,5 @@ app.get('/campeoes/:id', (req, res) => {
 
 // Iniciando o servidor
 app.listen(port, () => {
-  console.log(`API rodando em http://localhost:${port}`);
+  console.log(`API rodando em http://lolapi:${port}`);
 });
